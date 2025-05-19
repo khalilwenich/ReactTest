@@ -1,0 +1,57 @@
+/* Reset root styles */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Main content container */
+main {
+  min-height: calc(100vh - 56px);
+  padding-bottom: 2rem;
+}
+
+/* Card styles */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie poster styles */
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Button styles */
+.btn {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+/* Navbar styles */
+.navbar {
+  margin-bottom: 1rem;
+}
+
+/* Movie details page */
+.movie-details-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Wishlist empty state */
+.wishlist-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
